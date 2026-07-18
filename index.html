@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Deblock Studios — Blog. Actualités, articles techniques et coulisses de nos projets." />
+  <title>Blog — Deblock Studios</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="https://deblock-studios.vercel.app" class="nav-logo">
+    <span class="logo-bracket">[</span>DEBLOCK<span class="logo-bracket">]</span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="https://deblock-studios.vercel.app#projects">Projets</a></li>
+    <li><a href="https://deblock-studios.vercel.app#about">Studio</a></li>
+    <li><a href="index.html" class="active">Blog</a></li>
+    <li><a href="https://deblock-studios.vercel.app#footer">Contact</a></li>
+  </ul>
+
+  <button class="nav-hamburger" id="hamburger-btn" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<nav class="nav-drawer" id="nav-drawer">
+  <a href="https://deblock-studios.vercel.app#projects">Projets</a>
+  <a href="https://deblock-studios.vercel.app#about">Studio</a>
+  <a href="index.html">Blog</a>
+  <a href="https://deblock-studios.vercel.app#footer">Contact</a>
+</nav>
+
+<!-- BLOG LIST VIEW -->
+<div id="blog-list-view">
+
+  <!-- HERO -->
+  <section id="blog-hero">
+    <div class="blog-hero-inner">
+      <span class="blog-eyebrow reveal">Blog</span>
+      <h1 class="blog-hero-title reveal">
+        Nos <span class="highlight">actualités</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- ARTICLE LIST -->
+  <section id="blog-list">
+    <p class="articles-count" id="articles-count">Chargement…</p>
+    <div id="articles-container">
+      <div class="blog-loading">Chargement des articles</div>
+    </div>
+  </section>
+
+</div>
+
+<!-- SINGLE ARTICLE PAGE (hidden by default) -->
+<div id="article-page">
+  <button class="back-btn" id="back-btn" aria-label="Retour au blog">
+    <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+      <path d="M15 18l-6-6 6-6"/>
+    </svg>
+    Retour au blog
+  </button>
+
+  <header class="article-header">
+    <span class="article-date" id="article-date"></span>
+    <h1 id="article-title"></h1>
+  </header>
+
+  <div class="article-body" id="article-body"></div>
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-top reveal">
+    <div class="footer-col">
+      <h5>Projets</h5>
+      <ul>
+        <li><a href="https://multicraft-info.netlify.app">MultiCraft Info</a></li>
+        <li><a href="https://multidb.vercel.app">MultiDB</a></li>
+        <li><a href="https://deblock-studios.vercel.app/wildium.html">Wildium</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Studio</h5>
+      <ul>
+        <li><a href="https://deblock-studios.vercel.app/#about">À propos</a></li>
+        <li><a href="mailto:creatif.france@outlook.com">Contact</a></li>
+        <li><a href="https://deblock-studios.vercel.app/legal.html">Mentions légales</a></li>
+        <li><a href="index.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Deblock Studios — Tous droits réservés</span>
+    <span>Fait avec ❤️ par des passionnés</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
