@@ -1,3 +1,5 @@
+2026-08-14
+
 Chers utilisateurs,
 
 Comme vous avez pu le remarquer, les mises à jour de MultiCraft vont en se dégradant. Selon nous, une ligne rouge a été franchie lors de l'ajout de publicités au démarrage d'un serveur et au téléchargement d'un mod en solo.
